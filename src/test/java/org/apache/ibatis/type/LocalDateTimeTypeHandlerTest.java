@@ -15,14 +15,14 @@
  */
 package org.apache.ibatis.type;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 import org.junit.jupiter.api.Test;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 
 public class LocalDateTimeTypeHandlerTest extends BaseTypeHandlerTest {
 

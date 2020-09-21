@@ -15,16 +15,16 @@
  */
 package org.apache.ibatis.type;
 
-import java.time.Year;
-
-import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+import java.time.Year;
+
+import org.junit.jupiter.api.Test;
+
 /**
- * 
+ *
  * @author Eduardo Macarron
  */
 public class YearTypeHandlerTest extends BaseTypeHandlerTest {

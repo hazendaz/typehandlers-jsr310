@@ -15,15 +15,15 @@
  */
 package org.apache.ibatis.type;
 
-import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import java.sql.Date;
 import java.time.LocalDate;
 import java.time.chrono.JapaneseDate;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import org.junit.jupiter.api.Test;
 
 public class JapaneseDateTypeHandlerTest extends BaseTypeHandlerTest {
 
